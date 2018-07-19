@@ -1,7 +1,7 @@
 import React from 'react';
 import { Admin, Resource } from 'react-admin';
 import jsonServerProvider from 'ra-data-json-server';
-import { PostList } from './posts';
+import { PostList } from './Posts';
 
 const dataProvider = jsonServerProvider('http://jsonplaceholder.typicode.com');
 const App = () => (
