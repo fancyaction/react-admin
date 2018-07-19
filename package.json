@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ra-data-json-server": "^2.1.2",
     "react": "^16.4.1",
     "react-admin": "^2.1.2",
     "react-dom": "^16.4.1",
