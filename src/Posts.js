@@ -1,5 +1,19 @@
 import React from 'react';
-import { List, Datagrid, TextField, ReferenceField } from 'react-admin';
+import {
+  List,
+  Edit,
+  Create,
+  Datagrid,
+  TextField,
+  ReferenceField,
+  EditButton,
+  DisabledInput,
+  LongTextInput,
+  ReferenceInput,
+  SelectInput,
+  SimpleForm,
+  TextInput
+} from 'react-admin';
 
 export const PostList = props => (
   <List {...props}>
@@ -10,6 +24,7 @@ export const PostList = props => (
       </ReferenceField>
       <TextField source="title" />
       <TextField source="body" />
+      <EditButton />
     </Datagrid>
   </List>
 );
